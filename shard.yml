@@ -1,0 +1,10 @@
+name: tantric_miner
+version: 0.1.0
+
+dependencies:
+  cli:
+    github: mosop/cli
+
+#development_dependencies:
+
+license: GPL3
