@@ -1,5 +1,6 @@
 require "option_parser"
 require "./cli/installer"
+require "./cli/miners"
 
 module TantricMiner
   module CLI
@@ -13,6 +14,9 @@ module TantricMiner
 
       when "-h", "--help", "-help", "help"
         puts "List of sub commands to go here..."
+
+      when "miner_install"
+        CLI::Miners.run
 
       when "install"
         CLI::Installer.run
